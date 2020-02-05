@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "246342858887",
+    "firebase_url": "https://msrit-gbot.firebaseio.com",
+    "project_id": "msrit-gbot",
+    "storage_bucket": "msrit-gbot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246342858887:android:e977c0812855c8da59e022",
+        "android_client_info": {
+          "package_name": "com.ic.msrit_faculty.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246342858887-j1fmg54ruiho1i3bacnd67v9u6j0nadv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuAMJgJqjShui_qp86GQTZhYQ9xwIpJ6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246342858887-j1fmg54ruiho1i3bacnd67v9u6j0nadv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
