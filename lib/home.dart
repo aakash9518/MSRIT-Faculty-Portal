@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'login.dart';
+import './Components/curClass.dart';
 import 'package:firebase_database/firebase_database.dart';
 
 class Home extends StatefulWidget{
     Home();
-  String title;
   HomeState createState()=> HomeState();
 }
 
@@ -68,14 +68,17 @@ FirebaseUser user ;
         //   ],),
         body : Center(
           child:Column(
-            mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Text('click me ' + (this.user?.displayName ?? "here")),
+              CurClass(),
+              // Text('click me ' + (this.user?.displayName ?? "here")),
               RaisedButton(
                 child: Text("Take Attendance"),
-                onPressed: pressMe)],
-                )
+                onPressed: pressMe),
+              RaisedButton(
+                onPressed: signOut,
+                child: Text('Sign  Out'),)],
+          )
         )
       ) ;
     }

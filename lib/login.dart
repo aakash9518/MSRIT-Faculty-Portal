@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'home.dart';
+import 'dashboard.dart';
 import 'package:firebase_database/firebase_database.dart';
 
 
@@ -21,7 +21,7 @@ class LoginState extends State<Login> {
 
       if(user!=null){
         print('already logged in as '+user.displayName);
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Home() ));
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Dashboard() ));
       }
     });
   }
@@ -42,7 +42,7 @@ class LoginState extends State<Login> {
       final FirebaseUser user = authResult.user;
       
       print('signed in as '+user.displayName);
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Home() ));
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Dashboard() ));
 
 
       var ref  = FirebaseDatabase.instance.reference().child('users').push();
