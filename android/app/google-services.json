@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "246342858887",
-    "firebase_url": "https://msrit-gbot.firebaseio.com",
-    "project_id": "msrit-gbot",
-    "storage_bucket": "msrit-gbot.appspot.com"
+    "project_number": "166750781898",
+    "firebase_url": "https://rit-sis-ga-acc.firebaseio.com",
+    "project_id": "rit-sis-ga-acc",
+    "storage_bucket": "rit-sis-ga-acc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:246342858887:android:e977c0812855c8da59e022",
+        "mobilesdk_app_id": "1:166750781898:android:17d4a82f57b9210fab4f33",
         "android_client_info": {
           "package_name": "com.ic.msrit_faculty.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "246342858887-j1fmg54ruiho1i3bacnd67v9u6j0nadv.apps.googleusercontent.com",
+          "client_id": "166750781898-pcs1jn6d6jtce0bc5keq3jkru7uu4f67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ic.msrit_faculty.app",
+            "certificate_hash": "87ae684093c7e0ba7796b694f30915605ad691b0"
+          }
+        },
+        {
+          "client_id": "166750781898-75o6n89sq7i8nq97si2aliabj5vkqstc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAuAMJgJqjShui_qp86GQTZhYQ9xwIpJ6w"
+          "current_key": "AIzaSyAO1HOqpvlZ2aOuh4WE6RtEQvEfE7-7vHg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "246342858887-j1fmg54ruiho1i3bacnd67v9u6j0nadv.apps.googleusercontent.com",
+              "client_id": "166750781898-75o6n89sq7i8nq97si2aliabj5vkqstc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

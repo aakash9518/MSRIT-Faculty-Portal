@@ -13,7 +13,7 @@ class Home extends StatefulWidget{
 class HomeState extends State<Home>{
 String title ="hi";
 FirebaseUser user ;
-  final GoogleSignIn googleSignIn =  new GoogleSignIn(scopes: ['email']);
+final GoogleSignIn googleSignIn =  new GoogleSignIn(scopes: ['email']);
 
 @override
   void initState() {
@@ -49,11 +49,6 @@ FirebaseUser user ;
     Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=>Login()));
   }
 
-  void pressMe(){
-    
-
-  }
-
     @override
     Widget build(BuildContext context) {
       
@@ -72,12 +67,12 @@ FirebaseUser user ;
             children: <Widget>[
               CurClass(),
               // Text('click me ' + (this.user?.displayName ?? "here")),
-              RaisedButton(
+              /*RaisedButton(
                 child: Text("Take Attendance"),
-                onPressed: pressMe),
+                onPressed: goToAttendance),*/
               RaisedButton(
                 onPressed: signOut,
-                child: Text('Sign  Out'),)],
+                child: Text('Sign Out'),)],
           )
         )
       ) ;

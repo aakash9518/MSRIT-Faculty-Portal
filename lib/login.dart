@@ -25,9 +25,11 @@ class LoginState extends State<Login> {
       }
     });
   }
+  
   Future<FirebaseUser> getUser() async {
     return auth.currentUser();
   }
+
   Future<void> signIn() async{
     try{
       final GoogleSignInAccount googleSignInAccount=   await googleSignIn.signIn();
